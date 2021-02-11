@@ -1,0 +1,29 @@
+{
+    "caption": "Update (manual)",
+    "doc": "Run a workflow that updates a Finder & Replacer element. This normally happens automatically once the data is updated, but if you want to be sure that the plugin is updated at a specific time with specific content, this is the way to do it.",
+    "fields": {
+        "AAP": {
+            "caption": "Original text",
+            "editor": "DynamicValue",
+            "name": "original_text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAQ": {
+            "caption": "Values to find",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "values_to_find",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "Values to replace",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "values_to_replace",
+            "rank": 2,
+            "value": "text"
+        }
+    }
+}

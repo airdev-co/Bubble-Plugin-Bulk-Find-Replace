@@ -1,0 +1,9 @@
+{
+    "categories": {
+        "0": "productivity"
+    },
+    "description": "This plugin allows finding and replacing a list of values",
+    "image": "//s3.amazonaws.com/appforest_uf/f1595807812481x384115801923529800/Unknown.jpg",
+    "license": "open_source",
+    "name": "Bulk Find & Replace"
+}

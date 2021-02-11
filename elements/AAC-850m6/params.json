@@ -1,0 +1,51 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Finder & Replacer",
+    "events": {
+        "AAN": {
+            "caption": "Updated",
+            "name": "updated"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "Original text",
+            "editor": "DynamicValue",
+            "name": "original_text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Values to find",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "values_to_find",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Values to replace",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "values_to_replace",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-search",
+    "states": {
+        "AAG": {
+            "caption": "Replaced text",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "replaced_text",
+            "value": "text"
+        }
+    }
+}
